@@ -20,7 +20,7 @@ public class bubble_sort {
     }
     public static void main(String[] args){
         bubble_sort sort = new bubble_sort();
-        int[] sortArray = {8,5,6,3,4,2,7,2,1,0,9};
+        int[] sortArray = {8,5,6,3,4,2,7,20,1,0,9};
         sort.bubbleSort(sortArray);
         for (int i = 0; i < sortArray.length; i++){
             System.out.println(sortArray[i]);
